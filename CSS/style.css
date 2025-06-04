@@ -82,7 +82,7 @@ html {
   position: relative;
 }
 
-.nav-item:nth-child(1)::after {
+.nav-item::after {
   content: "";
   position: absolute;
   top: 3rem;
@@ -110,14 +110,10 @@ html {
 }
 
 /* Start Dropdown Style */
-.dropdown-1 {
+.dropdown {
   position: absolute;
   top: 4.9rem;
-  left: -24rem;
   background-color: #fff;
-  width: 96rem;
-  height: 60rem;
-  display: flex;
   border-radius: 1rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
   padding: 2rem;
@@ -126,9 +122,16 @@ html {
   transition: all 0.3s;
 }
 
-.nav-item:hover .dropdown-1 {
+.nav-item:hover .dropdown {
   opacity: 1;
   visibility: visible;
+}
+/* Start Dropdown-1 Style */
+.dropdown-1 {
+  left: -24rem;
+  width: 96rem;
+  height: 60rem;
+  display: flex;
 }
 
 .dropdown-1-left {
@@ -305,6 +308,81 @@ html {
   letter-spacing: 0.1rem;
   cursor: pointer;
 }
+/* End Dropdown-1 Style */
+
+/* Start Dropdown-2 Style */
+.dropdown-2 {
+  width: 90rem;
+  height: 37rem;
+  left: -27rem;
+  display: flex;
+}
+.clients-item {
+  width: 100%;
+  margin: 0 0.5rem;
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.clients-item:nth-child(1) {
+  background: linear-gradient(135deg, #faf7fe, #ead7ff);
+}
+
+.clients-item:nth-child(2) {
+  background: linear-gradient(135deg, #faf6fe, #cad9ff);
+}
+
+.clients-item:nth-child(3) {
+  background: linear-gradient(135deg, #f1fdf7, #bfffdf);
+}
+
+.clients-item:nth-child(4) {
+  background: linear-gradient(135deg, #faf7fe, #f8d7c5);
+}
+
+.clients-item i {
+  font-size: 10rem;
+}
+
+.clients-item:nth-child(1) i,
+.clients-item:nth-child(1) h3 {
+  color: #ac63fa;
+}
+
+.clients-item:nth-child(2) i,
+.clients-item:nth-child(2) h3 {
+  color: #1f5bf3;
+}
+
+.clients-item:nth-child(3) i,
+.clients-item:nth-child(3) h3 {
+  color: #1fcf77;
+}
+
+.clients-item:nth-child(4) i,
+.clients-item:nth-child(4) h3 {
+  color: #ff8645;
+}
+
+.clients-item h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 3.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.clients-item p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+}
+/* End Dropdown-2 Style */
 /* End Dropdown Style */
 
 .nav-btn {
