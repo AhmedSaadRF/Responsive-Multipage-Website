@@ -186,17 +186,18 @@ html {
   flex-wrap: wrap;
 }
 
-.drepdown-sevice {
+.drepdown-sevice,
+.product {
   display: flex;
   align-items: center;
   margin-bottom: 3.5rem;
   cursor: pointer;
 }
 
-.drepdown-sevice i {
+.drepdown-sevice i,
+.product i {
   width: 5.5rem;
   height: 5.5rem;
-  background: linear-gradient(to right, #b150f1, #7e23da);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -207,31 +208,37 @@ html {
   transition: transform 0.3s;
 }
 
-.drepdown-sevice:hover i {
+.drepdown-sevice:hover i,
+.product:hover i {
   transform: scale(1.1);
 }
 
-.drepdown-sevice:nth-child(1) i {
+.drepdown-sevice:nth-child(1) i,
+.product:nth-child(1) i {
   background: linear-gradient(to right, #b150f1, #7e23da);
   box-shadow: 0 0.5rem 2rem rgba(126, 35, 218, 0.3);
 }
 
-.drepdown-sevice:nth-child(2) i {
+.drepdown-sevice:nth-child(2) i,
+.product:nth-child(2) i {
   background: linear-gradient(to right, #31dca1, #23d683);
   box-shadow: 0 0.5rem 2rem rgba(35, 214, 131, 0.3);
 }
 
-.drepdown-sevice:nth-child(3) i {
+.drepdown-sevice:nth-child(3) i,
+.product:nth-child(3) i {
   background: linear-gradient(to right, #3f51ec, #2d2dfc);
   box-shadow: 0 0.5rem 2rem rgba(45, 45, 207, 0.3);
 }
 
-.drepdown-sevice:nth-child(4) i {
+.drepdown-sevice:nth-child(4) i,
+.product:nth-child(4) i {
   background: linear-gradient(to right, #00d3e0, #03b4d8);
   box-shadow: 0 0.5rem 2rem rgba(3, 180, 216, 0.3);
 }
 
-.drepdown-sevice:nth-child(5) i {
+.drepdown-sevice:nth-child(5) i,
+.product:nth-child(5) i {
   background: linear-gradient(to right, #ff9625, #fa751c);
   box-shadow: 0 0.5rem 2rem rgba(250, 117, 28, 0.3);
 }
@@ -246,39 +253,47 @@ html {
   box-shadow: 0 0.5rem 2rem rgba(32, 37, 44, 0.3);
 }
 
-.dropdown-service-item {
+.dropdown-service-item,
+.product div {
   display: flex;
   flex-direction: column;
 }
 
-.dropdown-service-item span {
+.dropdown-service-item span,
+.product div span {
   font-size: 1.6rem;
 }
 
-.dropdown-service-item span:nth-child(1) {
+.dropdown-service-item span:nth-child(1),
+.product div span:nth-child(1) {
   font-family: 'Mooli', cursive;
   font-weight: bold;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 
-.drepdown-sevice:nth-child(1) .dropdown-service-item span:nth-child(1) {
+.drepdown-sevice:nth-child(1) .dropdown-service-item span:nth-child(1),
+.product:nth-child(1) div span:nth-child(1) {
   color: #b150f1;
 }
 
-.drepdown-sevice:nth-child(2) .dropdown-service-item span:nth-child(1) {
+.drepdown-sevice:nth-child(2) .dropdown-service-item span:nth-child(1),
+.product:nth-child(2) div span:nth-child(1) {
   color: #31dca1;
 }
 
-.drepdown-sevice:nth-child(3) .dropdown-service-item span:nth-child(1) {
+.drepdown-sevice:nth-child(3) .dropdown-service-item span:nth-child(1),
+.product:nth-child(3) div span:nth-child(1) {
   color: #3f51ec;
 }
 
-.drepdown-sevice:nth-child(4) .dropdown-service-item span:nth-child(1) {
+.drepdown-sevice:nth-child(4) .dropdown-service-item span:nth-child(1),
+.product:nth-child(4) div span:nth-child(1) {
   color: #00d3e0;
 }
 
-.drepdown-sevice:nth-child(5) .dropdown-service-item span:nth-child(1) {
+.drepdown-sevice:nth-child(5) .dropdown-service-item span:nth-child(1),
+.product:nth-child(5) div span:nth-child(1) {
   color: #ff9625;
 }
 
@@ -290,7 +305,8 @@ html {
   color: #282c35;
 }
 
-.dropdown-service-item span:nth-child(2) {
+.dropdown-service-item span:nth-child(2),
+.product div span:nth-child(2) {
   font-weight: 300;
   color: #6a6f72;
 }
@@ -383,6 +399,34 @@ html {
   text-align: center;
 }
 /* End Dropdown-2 Style */
+/* Start Dropdown-3 Style */
+.dropdown-3 {
+  width: 40rem;
+  height: 47rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.product {
+  margin: 1.7rem 0;
+}
+
+.dropdown-3 button {
+  width: 100%;
+  height: 4rem;
+  background-color: #9544ec;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transform: translateY(1rem);
+}
+/* End Dropdown-3 Style */
 /* End Dropdown Style */
 
 .nav-btn {
