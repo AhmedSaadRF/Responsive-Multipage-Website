@@ -82,6 +82,25 @@ html {
   position: relative;
 }
 
+.nav-item:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-bottom: 2rem solid #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.nav-item:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
 .nav-link {
   font-size: 2rem;
   text-transform: uppercase;
@@ -102,6 +121,14 @@ html {
   border-radius: 1rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
   padding: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.nav-item:hover .dropdown-1 {
+  opacity: 1;
+  visibility: visible;
 }
 
 .dropdown-1-left {
