@@ -5,11 +5,11 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
-  font-family: 'mukta',sans-serif;
+  font-family: 'Mukta',sans-serif;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 48%;
 }
 /* End Default Style */
 
@@ -46,7 +46,7 @@ html {
 }
 
 .logo span:nth-child(1) {
-  font-family: 'mooli', cursive;
+  font-family: 'Mooli', cursive;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -79,6 +79,7 @@ html {
 
 .nav-item {
   list-style: none;
+  position: relative;
 }
 
 .nav-link {
@@ -88,6 +89,196 @@ html {
   letter-spacing: 0.1rem;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
+
+/* Start Dropdown Style */
+.dropdown-1 {
+  position: absolute;
+  top: 4.9rem;
+  left: -24rem;
+  background-color: #fff;
+  width: 96rem;
+  height: 60rem;
+  display: flex;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.dropdown-1-left {
+  width: 30%;
+  padding-right: 4rem;
+}
+
+.dropdown-1-right {
+  width: 70%;
+  padding-left: 2rem;
+}
+
+.dropdown-1-left h3,
+.dropdown-1-right h3 {
+  font-family: 'Mooli', cursive;
+  font-size: 1.8rem;
+  color: #8698a7;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 0.2rem solid rgba(134, 152, 167, 0.5);
+}
+
+.features-list-item {
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.features-list-item i {
+  font-size: 2rem;
+  width: 4rem;
+  color: #8698a7;
+  transition: color 0.3s;
+}
+
+.features-list-item span {
+  font-size: 1.8rem;
+  color: #8698a7;
+  transition: color 0.3s;
+}
+
+.features-list-item:hover i,
+.features-list-item:hover span {
+  color: #222;
+}
+
+.dropdown-services {
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.drepdown-sevice {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.5rem;
+  cursor: pointer;
+}
+
+.drepdown-sevice i {
+  width: 5.5rem;
+  height: 5.5rem;
+  background: linear-gradient(to right, #b150f1, #7e23da);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-right: 2rem;
+  align-items: center;
+  font-size: 2.5rem;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.drepdown-sevice:hover i {
+  transform: scale(1.1);
+}
+
+.drepdown-sevice:nth-child(1) i {
+  background: linear-gradient(to right, #b150f1, #7e23da);
+  box-shadow: 0 0.5rem 2rem rgba(126, 35, 218, 0.3);
+}
+
+.drepdown-sevice:nth-child(2) i {
+  background: linear-gradient(to right, #31dca1, #23d683);
+  box-shadow: 0 0.5rem 2rem rgba(35, 214, 131, 0.3);
+}
+
+.drepdown-sevice:nth-child(3) i {
+  background: linear-gradient(to right, #3f51ec, #2d2dfc);
+  box-shadow: 0 0.5rem 2rem rgba(45, 45, 207, 0.3);
+}
+
+.drepdown-sevice:nth-child(4) i {
+  background: linear-gradient(to right, #00d3e0, #03b4d8);
+  box-shadow: 0 0.5rem 2rem rgba(3, 180, 216, 0.3);
+}
+
+.drepdown-sevice:nth-child(5) i {
+  background: linear-gradient(to right, #ff9625, #fa751c);
+  box-shadow: 0 0.5rem 2rem rgba(250, 117, 28, 0.3);
+}
+
+.drepdown-sevice:nth-child(6) i {
+  background: linear-gradient(to right, #3293ff, #2371ff);
+  box-shadow: 0 0.5rem 2rem rgba(35, 113, 255, 0.3);
+}
+
+.drepdown-sevice:nth-child(7) i {
+  background: linear-gradient(to right, #282c35, #20252c);
+  box-shadow: 0 0.5rem 2rem rgba(32, 37, 44, 0.3);
+}
+
+.dropdown-service-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-service-item span {
+  font-size: 1.6rem;
+}
+
+.dropdown-service-item span:nth-child(1) {
+  font-family: 'Mooli', cursive;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.drepdown-sevice:nth-child(1) .dropdown-service-item span:nth-child(1) {
+  color: #b150f1;
+}
+
+.drepdown-sevice:nth-child(2) .dropdown-service-item span:nth-child(1) {
+  color: #31dca1;
+}
+
+.drepdown-sevice:nth-child(3) .dropdown-service-item span:nth-child(1) {
+  color: #3f51ec;
+}
+
+.drepdown-sevice:nth-child(4) .dropdown-service-item span:nth-child(1) {
+  color: #00d3e0;
+}
+
+.drepdown-sevice:nth-child(5) .dropdown-service-item span:nth-child(1) {
+  color: #ff9625;
+}
+
+.drepdown-sevice:nth-child(6) .dropdown-service-item span:nth-child(1) {
+  color: #3293ff;
+}
+
+.drepdown-sevice:nth-child(7) .dropdown-service-item span:nth-child(1) {
+  color: #282c35;
+}
+
+.dropdown-service-item span:nth-child(2) {
+  font-weight: 300;
+  color: #6a6f72;
+}
+
+.dropdown-1-right button {
+  width: 100%;
+  height: 4rem;
+  background-color: #3776ff;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+/* End Dropdown Style */
 
 .nav-btn {
   width: 13rem;
@@ -127,7 +318,7 @@ header {
 }
 
 .banner h1 {
-  font-family: 'mooli', cursive;
+  font-family: 'Mooli', cursive;
   font-size: 13rem;
   color: #fff;
   text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
