@@ -1107,6 +1107,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.video-container.show-video {
+  opacity: 1;
+  visibility: visible;
 }
 
 .video {
