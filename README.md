@@ -34,6 +34,7 @@ This project is a Responsive Multipage Website Project.
 28_Finish Video Section Functions.  
 29_Finish Subscribe Section.  
 30_Finish Subscribe Section Style.  
+31_Finish Footer Section.  
 
 
 
