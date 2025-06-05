@@ -1235,6 +1235,14 @@ header {
   left: -4rem;
   background-color: #fff;
   border-radius: 0.4rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease;
+}
+
+.speed-options.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .speed-options div {
