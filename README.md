@@ -32,7 +32,7 @@ This project is a Responsive Multipage Website Project.
 26_Finish video Section.  
 27_Finish video Section Style.  
 28_Finish Video Section Functions.  
-
+29_Finish Subscribe Section.  
 
 
 
