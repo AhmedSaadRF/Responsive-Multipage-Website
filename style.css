@@ -92,6 +92,11 @@ body::-webkit-scrollbar-track {
   color: #092627;
   text-shadow: none;
 }
+
+.multi-page-nav .logo span {
+  color: #092627;
+  text-shadow: none;
+}
 /* End Logo Style */
 
 /* Start Nav-Items Style */
@@ -142,6 +147,11 @@ body::-webkit-scrollbar-track {
   color: #092627;
   text-shadow: none;
 }
+
+.multi-page-nav .nav-link {
+  color: #092627;
+  text-shadow: none;
+}
 /* Start Dropdown Style */
 .dropdown {
   position: absolute;
@@ -162,6 +172,10 @@ body::-webkit-scrollbar-track {
 
 .sticky .dropdown {
   top: 8rem;
+  box-shadow: 0 1rem 10rem rgba(130, 162, 235, 0.4);
+}
+
+.multi-page-nav .nav-items .dropdown {
   box-shadow: 0 1rem 10rem rgba(130, 162, 235, 0.4);
 }
 /* Start Dropdown-1 Style */
@@ -599,6 +613,12 @@ body::-webkit-scrollbar-track {
   background: linear-gradient(to right, #ff45b9, #ff3598);
   box-shadow: none;
   color: #fff;
+}
+
+.multi-page-nav .nav-item .nav-btn {
+  background: linear-gradient(to right, #ff45b9, #ff3598);
+  color: #fff;
+  box-shadow: none;
 }
 /* End Nav-Items Style */
 /* End Navigation Style */
