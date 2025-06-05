@@ -24,3 +24,4 @@ This project is a Responsive Multipage Website Project.
 18_Finish Services Section Style.  
 19_Finish Navbar Sticky Style.  
 20_Finish Navbar Sticky Function.  
+21_Finish Projects Section.  
