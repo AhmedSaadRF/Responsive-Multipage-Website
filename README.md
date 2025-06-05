@@ -38,5 +38,6 @@ This project is a Responsive Multipage Website Project.
 32_Finish Footer Section Style.  
 33_Finish Scrollbar Style.  
 34_Finish Clients Page.  
+35_Finish Clients Page Style.  
 
 
