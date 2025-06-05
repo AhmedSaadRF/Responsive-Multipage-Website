@@ -28,6 +28,7 @@ This project is a Responsive Multipage Website Project.
 22_Finish Projects Section Style.  
 23_Finish Projects Section Function.  
 24_Finish Templates Section.  
+25_Finish Templates Section Style.  
 
 
 
