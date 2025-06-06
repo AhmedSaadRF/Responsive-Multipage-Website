@@ -41,6 +41,6 @@ This project is a Responsive Multipage Website Project.
 35_Finish Clients Page Style.  
 36_Finish Products Page Style.  
 37_Finish Products Page.  
-38_Finish Contact Page.
+38_Finish Contact Page.  
 39_Finish Contact Page Style.  
 
