@@ -34,8 +34,8 @@ menuIcon.addEventListener('click', () => {
 
 navItems.forEach((navItem) => {
   navItem.addEventListener('click', () => {
-    if (navbar.classList.contains('show')) {
-      navbar.classList.remove('show');
+    if (navItem.classList.contains('show')) {
+      navItem.classList.remove('show');
     } else {
       navItems.forEach((item) => {
         item.classList.remove('show');
