@@ -222,4 +222,10 @@ body::-webkit-scrollbar-thumb {
     bottom: 12%;
   }
 }
+
+@media (max-width: 1440px) {
+  .pricing-small-circle {
+    right: 7%;
+  }
+}
 /* End Responsive Style */
