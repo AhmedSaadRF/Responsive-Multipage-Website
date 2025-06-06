@@ -2051,4 +2051,170 @@ footer {
     width: 35%;
   }
 }
+
+@media (max-width: 430px) {
+  html {
+    font-size: 45%;
+  }
+
+  .banner {
+    left: 8%;
+  }
+
+  .bg-main {
+    top: -75%;
+    left: -120%;
+    background: linear-gradient(to left, #4400c5, #4400ab);
+  }
+
+  .bg-2 {
+    left: 20%;
+  }
+
+  .services {
+    height: 240vh;
+  }
+
+  .services-bg-1 {
+    top: -10%;
+    right: -10%;
+  }
+
+  .services-bg-2 {
+    bottom: -8%;
+  }
+
+  .projects h1 {
+    font-size: 4rem;
+  }
+
+  .projects p {
+    width: 50rem;
+  }
+
+  .filter-nav {
+    height: 15rem;
+    flex-wrap: wrap;
+  }
+
+  .filter-nav-link {
+    margin: 1rem;
+  }
+
+  .templates-left {
+    left: 0;
+    width: 100%;
+    padding: 12rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .templates-left p {
+    text-align: center;
+  }
+
+  .templates-right img:nth-child(1) {
+    width: 23rem;
+    top: 65%;
+    right: 40%;
+  }
+
+  .templates-right img:nth-child(2) {
+    width: 14rem;
+    top: 51%;
+    left: -55%;
+  }
+
+  .templates-right img:nth-child(3) {
+    width: 38rem;
+    top: 55%;
+    right: 10%;
+  }
+
+  .templates::before {
+    right: -7%;
+    bottom: -10%;
+    background: linear-gradient(to left, transparent, #8430ea, #4c0c9b);
+  }
+
+  .play-button {
+    left: -25%;
+  }
+
+  .play-btn {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .play-btn::before {
+    width: 19.5rem;
+    height: 19.5rem;
+  }
+
+  .play-btn i {
+    font-size: 5rem;
+  }
+
+  .video {
+    width: 50rem;
+    height: auto;
+  }
+
+  .video-controls {
+    padding: 1rem 0;
+  }
+
+  .options.left {
+    width: 40%;
+  }
+
+  .x-btn i {
+    top: -8%;
+  }
+
+  .subscribe-wrapper {
+    width: 50rem;
+  }
+
+  .subscribe-input-group {
+    width: 40rem;
+  }
+
+  .subscribe-input-group input {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    height: 45vh;
+    position: relative;
+  }
+
+  .footer-social-media {
+    position: absolute;
+    bottom: 6rem;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer-social-media h3 {
+    margin-right: 5rem;
+  }
+
+  .footer-bottom a {
+    font-size: 1.8rem;
+  }
+
+  .drepdown-sevice div span:nth-child(2) {
+    display: none;
+  }
+
+  .dropdown-1-right {
+    width: 100%;
+    height: 75%;
+  }
+}
 /* End Responsive Style */
