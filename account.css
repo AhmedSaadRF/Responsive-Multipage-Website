@@ -154,3 +154,18 @@ body::-webkit-scrollbar-thumb {
   z-index: 10;
 }
 /* End Account Page Style */
+
+/* Start Responsive Style */
+@media (max-width: 820px) {
+  .account {
+    height: 100vh;
+  }
+
+  .account-circle {
+    width: 65rem;
+    height: 65rem;
+    bottom: 39%;
+    left: 23px;
+  }
+}
+/* End Responsive Style */
