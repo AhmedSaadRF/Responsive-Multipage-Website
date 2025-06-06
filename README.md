@@ -50,5 +50,6 @@ This project is a Responsive Multipage Website Project.
 44_Finish Responsive Screen (1600px * 900px).  
 45_Finish Responsive Screen (1440px * 900px).  
 46_Finish Responsive Screen (1366px * 768px).  
-47_Finish Responsive Screen (1280px* 780px).  
+47_Finish Responsive Screen (1280px * 780px).  
+48_Finish Responsive Screen (1024px * 768px).  
 
