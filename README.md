@@ -49,4 +49,5 @@ This project is a Responsive Multipage Website Project.
 43_Finish Pricing Page Style.  
 44_Finish Responsive Screen (1600px * 900px).  
 45_Finish Responsive Screen (1440px * 900px).  
+46_Finish Responsive Screen (1366px * 768px).  
 
