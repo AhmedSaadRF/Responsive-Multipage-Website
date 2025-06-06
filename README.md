@@ -46,4 +46,5 @@ This project is a Responsive Multipage Website Project.
 40_Finish Account Page.  
 41_Finish Account Page Style.  
 42_Finish Pricing Page.  
+43_Finish Pricing Page Style.  
 
