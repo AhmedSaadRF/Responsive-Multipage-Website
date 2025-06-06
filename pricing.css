@@ -210,3 +210,16 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(to right, #ca6eff, #7118d6 90%);
 }
 /* End Pricing Page Style */
+
+/* Start Responsive Style */
+@media (max-width: 1600px) {
+  .pricing-small-circle {
+    right: 10%;
+  }
+
+  .pricing-large-circle {
+    right: 10%;
+    bottom: 12%;
+  }
+}
+/* End Responsive Style */

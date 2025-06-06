@@ -254,3 +254,15 @@ body::-webkit-scrollbar-thumb {
   opacity: 0.9;
 }
 /*  End Product Page Style */
+
+/* Start Responsive Style */
+@media (max-width: 1600px) {
+  .product-content {
+    width: 90%;
+  }
+
+  .promo-content h1 {
+    font-size: 3.5rem;
+  }
+}
+/* End Responsive Style */
