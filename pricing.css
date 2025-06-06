@@ -228,4 +228,31 @@ body::-webkit-scrollbar-thumb {
     right: 7%;
   }
 }
+
+@media (max-width: 1024px) {
+  .pricing-card {
+    width: 40rem;
+  }
+
+  .pricing-rectangle {
+    top: 28%;
+    left: 5%;
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .pricing-large-circle {
+    bottom: 10%;
+    right: 5%;
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .pricing-small-circle {
+    top: 26%;
+    right: 5%;
+    width: 6rem;
+    height: 6rem;
+  }
+}
 /* End Responsive Style */
