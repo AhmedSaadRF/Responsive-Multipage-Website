@@ -123,3 +123,11 @@ body::-webkit-scrollbar-thumb {
 }
 /* End Testimonials Style */
 /* End Clients Page Style */
+
+/* Start Responsive Style */
+@media (max-width: 1600px) {
+  .testimonials-wrapper {
+    width: 90%;
+  }
+}
+/* End Responsive Style */
