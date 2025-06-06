@@ -168,4 +168,10 @@ body::-webkit-scrollbar-thumb {
     left: 23px;
   }
 }
+
+@media (max-width: 768px) {
+  .account-circle {
+    bottom: 30%;
+  }
+}
 /* End Responsive Style */
