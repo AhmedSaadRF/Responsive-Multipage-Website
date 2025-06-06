@@ -9,7 +9,7 @@
 }
 
 html {
-  font-size: 48%;
+  font-size: 62.5%;
 }
 /* End Default Style */
 
@@ -1520,3 +1520,44 @@ footer {
 }
 /* End Footer Style */
 /* End Container Style */
+
+/* Start Responsive Style */
+@media (max-width: 1600px) {
+  html {
+    font-size: 60%;
+  }
+
+  .navbar {
+    padding: 0 10rem;
+  }
+
+  .nav-items {
+    width: 55%;
+  }
+
+  .dropdown {
+    top: 4.5rem;
+  }
+
+  .services-wrapper {
+    width: 70%;
+  }
+
+  .projects-list {
+    width: 80%;
+  }
+
+  .templates-right img:nth-child(1) {
+    top: 45%;
+    width: 35rem;
+  }
+
+  .templates-right img:nth-child(3) {
+    width: 55rem;
+  }
+
+  .subscribe {
+    margin-top: -1rem;
+  }
+}
+/* End Responsive Style */
