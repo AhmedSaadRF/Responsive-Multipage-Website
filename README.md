@@ -39,7 +39,7 @@ This project is a Responsive Multipage Website Project.
 33_Finish Scrollbar Style.  
 34_Finish Clients Page.  
 35_Finish Clients Page Style.  
-36_Finish Products Page.  
+36_Finish Products Page Style.  
 37_Finish Products Page.  
 
 
