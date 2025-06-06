@@ -1544,7 +1544,7 @@ footer {
   }
 
   .projects-list {
-    width: 80%;
+    width: 82%;
   }
 
   .templates-right img:nth-child(1) {
@@ -1624,6 +1624,12 @@ footer {
     height: 70rem;
     bottom: 0%;
     right: 8%;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 52%;
   }
 }
 /* End Responsive Style */
