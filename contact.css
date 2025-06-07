@@ -258,4 +258,10 @@ body::-webkit-scrollbar-thumb {
     left: 5%;
   }
 }
+
+@media (max-width: 375px) {
+  .contact {
+    height: 220vh;
+  }
+}
 /* End Responsive Style */

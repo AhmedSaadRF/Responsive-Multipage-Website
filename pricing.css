@@ -343,4 +343,10 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media (max-width: 375px) {
+  .pricing {
+    height: 250vh;
+  }
+}
+
 /* End Responsive Style */
