@@ -1509,6 +1509,18 @@ footer {
   margin-bottom: 1.3rem;
   color: #394353;
 }
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom p {
+  font-size: 2rem;
+  color: #394353;
+}
 /* End Footer Style */
 /* End Container Style */
 
