@@ -185,7 +185,7 @@ body::-webkit-scrollbar-thumb {
     width: 80%;
     margin: 2rem auto 15rem auto;
   }
-  
+
   .account-circle {
     width: 60rem;
     height: 60rem;
@@ -193,4 +193,14 @@ body::-webkit-scrollbar-thumb {
     left: 10%;
   }
 } 
+
+@media (max-width: 375px) {
+  .account {
+    height: 130vh;
+  }
+
+  .account-form-wrapper {
+    width: 45rem;
+  }
+}
 /* End Responsive Style */
