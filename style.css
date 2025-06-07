@@ -2198,4 +2198,72 @@ footer {
     height: 75%;
   }
 }
+
+@media (max-width: 375px) {
+  .bg-2 {
+    left: 30%;
+  }
+
+  .hamburger .nav-item:not(:last-child) {
+    height: 8rem;
+    padding-left: 3rem;
+  }
+
+  .dropdown {
+    top: 8rem;
+  }
+
+  .dropdown-1 {
+    overflow-y: scroll;
+  }
+
+  .dropdown-2 {
+    height: 32.5rem;
+  }
+
+  .dropdown-2 div {
+    height: auto;
+  }
+
+  .dropdown-2 div i {
+    display: none;
+  }
+
+  .dropdown-2 div p {
+    display: none;
+  }
+
+  .dropdown-3 {
+    height: 45rem;
+  }
+
+  .dropdown-3 div span:nth-child(2) {
+    display: none;
+  }
+
+  .dropdown-5 {
+    height: 30rem;
+    padding: 1.5rem;
+  }
+
+  .nav-item:last-child {
+    height: 10rem;
+  }
+
+  .nav-btn {
+    height: 5rem;
+  }
+
+  .services {
+    height: 350vh;
+  }
+
+  .services-bg-1 {
+    top: -7%;
+  }
+
+  footer {
+    height: 55vh;
+  }
+}
 /* End Responsive Style */
