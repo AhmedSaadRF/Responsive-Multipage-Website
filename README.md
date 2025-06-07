@@ -57,6 +57,8 @@ This project is a Responsive Multipage Website Project.
 51_Finish Menu Icon Function.  
 52_Finish Responsive Screen (820px * 1180px)(Tablet).    
 53_Finish Responsive Screen (768px * 1024px)(Tablet).    
+54_Finish Responsive Screen (430px * 932px)(Mobile).    
+
 
 
 
